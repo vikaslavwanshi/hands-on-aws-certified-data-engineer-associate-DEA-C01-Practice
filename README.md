@@ -417,7 +417,7 @@ SELECT * FROM order LEFT JOIN customers on customers.customerid = orders.custome
 ## Amazon Redshift Intro and Architecture 
 Amazon Redshift is a fast, fully managed, petabyte-scale data warehouse service that makes it simple and cost-effective to efficiently analyze all your data using your existing business intelligence tools. It is optimized for datasets ranging from a few hundred gigabytes to a petabyte or more and costs less than $1,000 per terabyte per year, a tenth the cost of most traditional data warehousing solutions.
 
-Amazon Redshift is designed for Online Analytical Processing (OLTP) workloads and can give up to 10x better performance than other data warehousing solutions by scaling up/down on demand with built in replication and backups. Amazon Redshift can be queried using Structured Query Language (SQL) using the online query editor via the AWS console and/or your own preferred client using JDBC and ODBC. Amazon Redshift can be monitored through Amazon Cloudwatch and Amazon Cloudtrail. 
+Amazon Redshift is designed for Online Analytical Processing (OLAP) workloads and can give up to 10x better performance than other data warehousing solutions by scaling up/down on demand with built in replication and backups. Amazon Redshift can be queried using Structured Query Language (SQL) using the online query editor via the AWS console and/or your own preferred client using JDBC and ODBC. Amazon Redshift can be monitored through Amazon Cloudwatch and Amazon Cloudtrail. 
 
 Common Usecases; 
 
